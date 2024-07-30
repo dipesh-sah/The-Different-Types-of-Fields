@@ -1,0 +1,27 @@
+{
+    "name": "swag-basic-example/swag-basic-example",
+    "description": "swag-basic-example/swag-basic-example",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "SwagBasicExample\\SwagBasicExample",
+        "label": {
+            "de-DE": "The Different Types of Fields",
+            "en-GB": "The Different Types of Fields"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SwagBasicExample\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SwagBasicExample\\Tests\\": "tests/"
+        }
+    }
+}
